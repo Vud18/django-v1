@@ -1,7 +1,7 @@
 
 ## Установка
 ### 1. Клонируйте репозиторий
-git
+[git](https://github.com/Vud18/django-v1.git)
 ### 2. Запуск через docker
 
 Команда 1: docker-compose build
