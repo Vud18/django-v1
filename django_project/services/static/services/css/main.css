@@ -1,0 +1,107 @@
+
+header {
+    position: fixed; /* Фиксация в верхней части экрана */
+    top: 0; /* Расположение у верхнего края */
+    left: 0; /* Расположение у левого края */
+    width: 100%; /* Растягиваем на всю ширину экрана */
+    height: 90px; /* Фиксированная высота шапки */
+    background: #020000; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    padding: 10px 2.5%; /* Отступы: 10px сверху и по бокам 2.5% */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Тень для выделения */
+    display: flex; /* Flexbox для выравнивания контента */
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: space-between; /* Равномерное распределение содержимого */
+    z-index: 1000; /* Поверх всех элементов страницы */
+}
+
+/*.container {*/
+/*    width: 1440px; !* Максимальная ширина *!*/
+/*    height: 915px; !* Максимальная высота *!*/
+/*    padding: 90px 150px; !* Отступы: верх-низ — 90px, справа-слева — 150px *!*/
+/*    display: flex; !* Flexbox для работы с содержимым *!*/
+/*    gap: 90px; !* Расстояние между внутренними элементами *!*/
+/*    margin: 0 auto; !* Центровка контейнера по горизонтали *!*/
+/*    box-sizing: border-box; !* Учитываем padding в общую ширину *!*/
+/*}*/
+
+.page {
+    /*width: 1440px; !* Максимальная ширина *!*/
+    /*height: 915px; !* Максимальная высота *!*/
+    /*padding: 150px 150px; !* Отступы: верх-низ — 90px, справа-слева — 150px *!*/
+    /*display: flex; !* Flexbox для работы с содержимым *!*/
+    /*gap: 90px; !* Расстояние между внутренними элементами *!*/
+    /*margin: 0 auto; !* Центровка контейнера по горизонтали *!*/
+    /*box-sizing: border-box; !* Учитываем padding в общую ширину *!*/
+    /*line-height: 30px;*/
+    /*align-content: center;*/
+    display: flex; /* Включение Flexbox для всего main */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    margin: 150px; /* Убираем внешние отступы */
+
+}
+
+.cosmic {
+    /*width: 400px;*/
+    /*line-height: 30px;*/
+    /*align-content: center;*/
+    max-width: 600px; /* Ограничиваем ширину для эстетики */
+    width: 100%; /* Контейнер занимает всю доступную ширину */
+    margin: 0 auto; /* Центрируем по горизонтали */
+}
+
+.cosmic-container {
+    display: flex; /* Включаем Flexbox для контейнера */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    gap: 10px; /* Отступы между элементами */
+    /*display: flex; !* Flexbox для выравнивания изображений и текста *!*/
+    /*align-items: center; !* Вертикальное выравнивание *!*/
+    /*justify-content: flex-start; !* Выравнивание в начале *!*/
+
+    margin-top: 40px; /* Отступ сверху для отделения от текста */
+    padding-right: 888px; /* Сдвигаем все элементы вправо */
+    margin-left: -150px; /* Сдвигаем элементы влево */
+}
+
+.item-cosmic {
+    display: none;
+    background: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.cosmic-image {
+    /*max-width: 100px; !* Ограничиваем максимальную ширину для изображений *!*/
+    height: 420px; /* Сохраняем пропорции изображений */
+    width: 556px;
+    border-radius: 5px; /* Для эстетики можно добавить скругление */
+    cursor: pointer;
+    margin-right: 150px;
+    margin-left: -80px;
+}
+
+.cosmic-image:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slider-for {
+    /*margin-left: 450px;*/
+    max-width: 800px; /* Ограничиваем ширину для эстетики */
+    width: 100%; /* Контейнер занимает всю доступную ширину */
+    margin: 0 auto; /* Центрируем по горизонтали */
+
+
+}
+
+.links-container {
+    display: flex;
+    gap: 55px; /* Управляет расстоянием между элементами */
+}
+
+.links-container a {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit; /* Наследует цвет текста */
+}
