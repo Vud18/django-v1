@@ -17,7 +17,7 @@ class SliderImage(SortableMixin):
     order = models.PositiveIntegerField(default=0, editable=False, db_index=True, verbose_name="Порядок")
 
     class Meta:
-        ordering = ['order']  # Сортировка записей по полю "order"
+        ordering = ['order']
         verbose_name = "Изображение слайдера"
         verbose_name_plural = "Изображения слайдера"
 
