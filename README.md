@@ -4,11 +4,9 @@
 https://github.com/Vud18/django-v1.git
 ### 2. Запуск через docker
 
-Сборка контейнеров
-docker-compose build
+Команда 1: docker-compose build
 
-Запуск контейнеров в фоновом режиме
-docker-compose up
+Команда 2: docker-compose up
 
 ### 3. Что бы добавить картинки на главный экран, нужно создать суперпользователя.
 В консоли введите docker exec -it django_app /bin/bash
