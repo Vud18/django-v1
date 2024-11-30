@@ -1,4 +1,5 @@
 # Проект по созданию веб-страницы с Bootstrap 5 и Django
+![Описание изображения](django_project\media\image1232.png)
 Данный проект реализует веб-страницу на основе предоставленного макета из Figma, используя Django, MySQL и Bootstrap 5. 
 
 Слайдер на странице реализован с использованием библиотеки [Slick Slider](http://kenwheeler.github.io/slick/) (Slider Syncing), а его данные настраиваются через админку Django.
